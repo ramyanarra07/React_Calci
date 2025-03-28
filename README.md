@@ -87,9 +87,9 @@ const App = () => {
         <button className="operator" onClick={() => handleClick("/")}>÷</button>
         <button className="operator" onClick={deleteLast}>⌫</button>
         <button className="operator" onClick={clearInput}>AC</button>
-        <button onClick={() => handleClick("7")}>1</button>
-        <button onClick={() => handleClick("8")}>2</button>
-        <button onClick={() => handleClick("9")}>3</button>
+        <button onClick={() => handleClick("1")}>1</button>
+        <button onClick={() => handleClick("2")}>2</button>
+        <button onClick={() => handleClick("3")}>3</button>
         <button className="operator" onClick={() => handleClick("*")}>×</button>
 
         <button onClick={() => handleClick("4")}>4</button>
@@ -97,15 +97,21 @@ const App = () => {
         <button onClick={() => handleClick("6")}>6</button>
         <button className="operator" onClick={() => handleClick("-")}>−</button>
 
-        <button onClick={() => handleClick("1")}>7</button>
-        <button onClick={() => handleClick("2")}>8</button>
-        <button onClick={() => handleClick("3")}>9</button>
+        <button onClick={() => handleClick("7")}>7</button>
+        <button onClick={() => handleClick("8")}>8</button>
+        <button onClick={() => handleClick("9")}>9</button>
         <button className="operator" onClick={() => handleClick("+")}>+</button>
 
         <button className="zero" onClick={() => handleClick("0")}>  0  </button>
         <button onClick={() => handleClick(".")}>.</button>
         <button className="equal" onClick={calculateResult}>=</button>
       </div>
+      <footer>
+        
+        <p>Created by NARRA RAMYA</p>
+        <p>&copy; 212223040128</p>
+      </footer>
+
     </div>
   );
 };
@@ -115,7 +121,7 @@ export default App;
 
 ##APP.CSS
 ```
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -199,6 +205,14 @@ button:hover {
   text-align: left;
   padding-left: 30px;
 }
+
+footer {
+  padding: 20px;
+
+  text-align: center;
+  color:#090909;
+}
+
 ```
 
 
