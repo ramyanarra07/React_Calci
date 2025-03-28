@@ -201,8 +201,10 @@ button:hover {
 
 
 ## OUTPUT
-![Uploading image.png…]()
-![Uploading image.png…]()
+![Screenshot (152)](https://github.com/user-attachments/assets/f3857440-6701-4f6a-ad79-a2e9a04b2d2c)
+
+![Screenshot (151)](https://github.com/user-attachments/assets/8cd1efb4-321e-4015-b24b-0ed5e6375fea)
+![Screenshot (149)](https://github.com/user-attachments/assets/b61dc8ee-1459-4bb6-9f77-4797c744c84a)
 
 
 
